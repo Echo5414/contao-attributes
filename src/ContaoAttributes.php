@@ -1,9 +1,9 @@
 <?php 
 
-namespace Virtuos\ContaoAttributes;
+namespace Virtuos\ContaoAttributesBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class VirtuosContaoAttributes extends Bundle
+class VirtuosContaoAttributesBundle extends Bundle
 {
 }

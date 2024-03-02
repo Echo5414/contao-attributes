@@ -13,10 +13,10 @@
   },
   "autoload": {
       "psr-4": {
-          "Virtuos\\ContaoAttributes\\": "src/"
+          "Virtuos\\ContaoAttributesBundle\\": "src/"
       }
   },
   "extra": {
-      "contao-manager-plugin": "Virtuos\\ContaoAttributes\\ContaoManager\\Plugin"
+      "contao-manager-plugin": "Virtuos\\ContaoAttributesBundle\\ContaoManager\\Plugin"
   }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Virtuos\ContaoAttributes\EventListener;
+namespace Virtuos\ContaoAttributesBundle\EventListener;
 
 use Contao\CoreBundle\ServiceAnnotation\Hook;
 

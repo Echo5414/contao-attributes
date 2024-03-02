@@ -5,10 +5,10 @@ services:
     autoconfigure: true   # Automatically registers your services as commands, event subscribers, etc.
     public: false         # This makes services private by default, which is a best practice
 
-  Virtuos\ContaoAttributesBundle\:
+  Virtuos\ContaoAttributes\:
     resource: '../src/*'
     exclude: '../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}'
 
-  Virtuos\ContaoAttributesBundle\EventListener\DcaListener:
+  Virtuos\ContaoAttributes\EventListener\DcaListener:
     tags:
       - { name: 'kernel.event_listener', event: 'contao.data_container.load', method: 'onLoadDataContainer' }

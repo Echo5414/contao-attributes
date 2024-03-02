@@ -3,8 +3,13 @@
   "type": "contao-bundle",
   "description": "A Contao 5 bundle to add data attributes to elements.",
   "license": "MIT",
+  "version": "0.9.0",
   "require": {
       "contao/core-bundle": "^5.0"
+  },
+  "conflict": {
+    "contao/core": "*",
+    "contao/manager-plugin": "<2.0 || >=3.0"
   },
   "autoload": {
       "psr-4": {
